@@ -2,15 +2,6 @@
 
 namespace App\Services;
 
-use App\Http\Controllers\Controller;
-use App\Services\Facade\BarLoginFacade;
-use App\Services\Facade\BazLoginFacade;
-use App\Services\Facade\FooLoginFacade;
-use App\Services\Facade\Login;
-use App\Services\Factory\LoginFactory;
-use Illuminate\Http\Request;
-use Symfony\Component\HttpFoundation\JsonResponse;
-
 class Jwt
 {
     public function generateSimpleJWTToken(string $login,string $service): string

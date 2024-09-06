@@ -2,7 +2,6 @@
 
 namespace App\Services\Facade;
 
-use App\Exceptions\AuthenticationFailedException;
 use External\Bar\Auth\LoginService;
 
 class BarLoginFacade implements Login
